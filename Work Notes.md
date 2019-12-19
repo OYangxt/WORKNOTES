@@ -1,6 +1,6 @@
 # Work Notes
 
-## 2019年12月15日
+## 2019年12月16日
 
 **1 返回高精度的系统时间（纳秒）**
 
@@ -44,8 +44,35 @@ String tripId = lastStatus.getOrDefault("tripId","");
 Strings.isNullOrEmpty(tripId);
 ```
 
-## 2019年12月16日
+## 2019年12月17日
 
 1 总结car-device项目中的消息体，将平台已实现的消息体进行分类，首先区分不同的协议，在各个协议中又分为可扩展和不可扩展两类，分类进行总结；
 
 ![消息体总结](images\平台已实现的消息体.png)
+
+## 2019年12月18日
+
+**1 复习昨天消息体总结；**
+
+**2 更新了HttpResult代码，并在Controller层使用；**
+
+**3 在项目中加入了PageHelper插件，对返回结果进行分页；**
+
+**4 学习DecimalFormat类；**
+
+   new DecimalFormat("0.##");
+
+   new DecimalFormat("0.00");
+
+#与0的区别：
+
+ #：没有则为空；
+
+ 0：没有则补0；
+
+**5 car-service-hw工程lbs下controller层代码**
+
+**6 将消息体总结上传到Software-3；**
+
+**7 结合car-device阅读netty官网用户手册部分内容；**
+

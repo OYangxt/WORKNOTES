@@ -76,3 +76,41 @@ Strings.isNullOrEmpty(tripId);
 
 **7 结合car-device阅读netty官网用户手册部分内容；**
 
+https://netty.io/wiki/user-guide-for-4.x.html
+
+## 2019年12月19日
+
+**1 编写基于netty的丢弃服务（DiscardServer）,并使用NetAssist工具调试成功，控制台打印输出hello netty;**
+
+​       **Discard协议，抛弃协议**
+
+　　它的作用就是接收到什么抛弃什么，它对调试网络状态的一定的用处。基于TCP的抛弃服务，如果服务器实现了抛弃协议，服务器就会在TCP端口9检测抛弃协议请求，在建立连接后并检测到请求后，就直接把接收到的数据直接抛弃，直到用户中断连接。而基于UDP协议的抛弃服务和基于TCP差不多，检测的端口是UDP端口9，功能也一样。  
+
+​    在写代码的过程中，学习了捕获异常、添加if/while/try语句、选中行等快捷键；
+
+**2 编写Echo Server**
+
+​         **ECHO协议**：指的是把接收到的信息按照原样返回；作用：主要用于检测和调试；这个协议可以基于TCP/UDP协议用于服务器检测端口7有无信息。
+
+**3 编写TIME Server**
+
+**3.1 时间协议**
+
+​        **时间协议**（英语：**TIME protocol**）是一个在[RFC](https://baike.baidu.com/item/RFC)868内定义的[网络传输协议](https://baike.baidu.com/item/网络传输协议)。它用作提供机器可读的日期时间信息。
+
+​         时间协议可以在[TCP](https://baike.baidu.com/item/TCP)或[UDP](https://baike.baidu.com/item/UDP)上使用。在TCP上，主机会连接支持时间协议的服务器的TCP[端口](https://baike.baidu.com/item/端口)37。服务器会发送32位二进制数字然后断开连接，数字表示由[格林尼治标准时间](https://baike.baidu.com/item/格林尼治标准时间)1900年1月1日午夜0时0分0秒至当时的总秒数。主机在接收到时间后断开连接。
+
+​        在UDP上，客户端会传送一个（通常为空的）数据包到UDP端口 37。服务器会把包含时间的数据包传回。在传送过程中没有进行连线。
+
+​        现在，时间协议已经被网上时间协议（Network Time Protocol，NTP）所取代。
+
+**3.2  2208988800**
+
+*2208988800**为**1900**年**1**月**1**日**00:00:00~1970**年**1**月**1**日**00:00:00**的总秒数*
+
+**3.3  Netty的用户使用手册已阅读完毕**
+
+**4 开启办公机telnet功能；**
+
+**5 学习尚硅谷Netty教程1-6节；**
+

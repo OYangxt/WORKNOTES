@@ -114,3 +114,15 @@ https://netty.io/wiki/user-guide-for-4.x.html
 
 **5 学习尚硅谷Netty教程1-6节；**
 
+**2019年12月20日**
+
+**1 编写BIO编程服务端demo;**
+
+​     手动创建线程池的问题；
+
+​     String导错包导致响应的构造函数不可用；
+
+​     telnet命令的使用: telnet 127.0.0.1 8888   ->  ctr+]
+
+**2 学习Netty教程7-26节；**
+

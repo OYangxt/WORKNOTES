@@ -114,7 +114,7 @@ https://netty.io/wiki/user-guide-for-4.x.html
 
 **5 学习尚硅谷Netty教程1-6节；**
 
-**2019年12月20日**
+## 2019年12月20日
 
 **1 编写BIO编程服务端demo;**
 
@@ -126,3 +126,16 @@ https://netty.io/wiki/user-guide-for-4.x.html
 
 **2 学习Netty教程7-26节；**
 
+## 2019年12月21日
+
+**1 准备DE类人才认定材料；**
+
+**2 学习car-service项目下，app模块；**
+
+**3 学习car-service项目下，bizmgr模块；**
+
+* Object userObJ = SecurityUtils.getSubject().getPrincipal();
+
+​        在shiro中，如果正常登陆（执行subject.login(token)成功），就能在全局通过SecurityUtils.getSubject().getPrincipal();获取用户信息。
+
+* BeanUtils.copyProperties(userObj, user);

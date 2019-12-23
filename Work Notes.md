@@ -139,3 +139,19 @@ https://netty.io/wiki/user-guide-for-4.x.html
 ​        在shiro中，如果正常登陆（执行subject.login(token)成功），就能在全局通过SecurityUtils.getSubject().getPrincipal();获取用户信息。
 
 * BeanUtils.copyProperties(userObj, user);
+
+## **2019年12月23日**
+
+**1 提交党员转正材料给支部书记；**
+
+**2 写NIOServer和NIOClient代码；**
+
+**3 阅读car-service工程下sysmgr模块代码；**
+
+**4 提交DE类人才认定材料；**
+
+**5 向王帆询问薛博文所提的问题（在告警结束前平台不能保存告警信息），**阅读logic代码可知，
+
+​       平台不会重复保存同一类型的告警信息，所以在同一个告警信息为结束前，不会保存期间上报的同一类型的数据，但不影响GPS位置信息的上报；
+
+**6 学习尚硅谷netty视频教程27-32节，写群聊代码；**

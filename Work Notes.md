@@ -155,3 +155,30 @@ https://netty.io/wiki/user-guide-for-4.x.html
 ​       平台不会重复保存同一类型的告警信息，所以在同一个告警信息为结束前，不会保存期间上报的同一类型的数据，但不影响GPS位置信息的上报；
 
 **6 学习尚硅谷netty视频教程27-32节，写群聊代码；**
+
+## 2019年12月24日
+
+**1 复习mybatis相关知识；**
+
+   两种实现方式（写dao接口实现类，不写实现类），与spring的集成，拦截器
+
+**2 复习Redis相关知识；**
+
+**3 复习RabbitMq知识；五种队列和消息分发模式；**
+
+**4 JIRA转移责任人：点备注,添加信息，该责任人即可；**
+
+**5 学习Reactor模式:**
+
+​    单线程单Reactor，单Reactor多线程，主从Reactor；
+
+**6 学习Netty模型**
+
+ BossGroup，WorkGroup，NioEventLoopGroup
+
+accept事件，NioSocketChannel，PipeLine，handler
+
+**7 NIO与零拷贝**
+
+**8 学习Netty视频教程33-43**
+

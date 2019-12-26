@@ -1,5 +1,7 @@
 # Work Notes
 
+# 第1周
+
 ## 2019年12月16日
 
 **1 返回高精度的系统时间（纳秒）**
@@ -140,6 +142,8 @@ https://netty.io/wiki/user-guide-for-4.x.html
 
 * BeanUtils.copyProperties(userObj, user);
 
+# 第2周
+
 ## **2019年12月23日**
 
 **1 提交党员转正材料给支部书记；**
@@ -181,4 +185,31 @@ accept事件，NioSocketChannel，PipeLine，handler
 **7 NIO与零拷贝**
 
 **8 学习Netty视频教程33-43**
+
+## 2019年12月25日
+
+**1 复习昨天所学知识，主要是netty相关；**
+
+**2 mybatis中resultType总结**
+
+resultType:
+
+​	基本类型 ：resultType=基本类型
+
+​	List类型：   resultType=List中元素的类型
+
+​	Map类型：  单条记录：resultType =map
+​                      多条记录：resultType =Map中value的类型
+
+**3 在微服务中添加Redis缓存**
+
+​        实现部门信息查询时，先根据key从Redis中查找，如果不存在，从数据库中查找，再存入Redis中。
+
+**4 使用TortoiseGit提交代码，比较与上一版本的差异；**
+
+**5 参加党支部大会；**
+
+**6 学习netty教程44-46；**
+
+netty服务端和客户端编程；
 

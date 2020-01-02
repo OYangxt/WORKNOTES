@@ -269,3 +269,76 @@ iotcloud-device相关；
 
 **9 修改微服务中Redis的使用，加入RedisDao及其实现类；**
 
+## 2019年12月31日
+
+**1 回忆昨天所学内容；**
+
+**2 更新接入云代码；**
+
+**3 使用Junit测试FastJson；**
+
+​    将实体类转为JSON字符串；
+
+​    将JSON字符串转为实体类；
+
+​    将JSON字符串转为Map对象，并根据键获取值；
+
+**4 @AllArgsConstrustor属于lombok**
+
+@Data
+使用这个注解，就不用再去手写Getter,Setter,equals,canEqual,hasCode,toString等方法了，注解后在编译时会自动加进去。
+@AllArgsConstructor
+使用后添加一个构造函数，该构造函数含有所有已声明字段属性参数
+@NoArgsConstructor
+使用后创建一个无参构造函数
+**5 查看oc适配器代码；**
+
+**6 查看产品微服务代码；**
+
+# 2020年1月1日
+
+# HAPPY NEW YEAR !
+
+## 2020年1月2日
+
+**1 更换桌面背景；**
+
+**2 修改转正PPT;**
+
+**3 复习Spring；**
+
+* IOC(Inversion of Control)控制反转
+
+  * 首先，从对象创建方式的改变进行理解：
+
+    由程序员手动new对象，到只需要声明一个接口，而不需要new实现类，降低了业务层对持久层的依赖；
+
+  * 其次，new对象时，其实需要一些创建对象的资源，现将这种获取资源的主动权利，由程序员转交到框架手里，交给框架去控制资源，则为控制反转；
+
+* 基于xml配置文件的IOC
+
+  * 实例化bean的三种方式
+    * 默认使用无参构造函数
+    * 通过Spring管理静态工厂类
+    * 通过Spring管理实例化工厂类
+  * 依赖注入的三种方式
+    * 构造函数
+    * set方法
+    * p名称空间
+
+* 基于注解的IOC
+
+  * 注入bean的
+    * @Component
+    * @Controller
+    * @Service
+    * @Repository
+  * 数据相关的
+    * @Autowire
+    * @Qualifier必须与@Autowire连用
+    * @Resource
+
+**4 复习SpringMVC阅读第一天笔记；**
+
+**5 学习Netty教程；**
+

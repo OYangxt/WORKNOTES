@@ -380,3 +380,39 @@ iotcloud-device相关；
 
 4 学习netty异步模型原理和任务队列（taskQueue）； 
 
+## 2020年1月8日
+
+1 根据接入云项目架构重新顺了一遍代码；
+
+docker run -d --name jenkins_01 -p 8081:8080 -v /home/jenkins_01:/home/jenkins_01 jenkins/jenkins:lts
+0effe91fd2a94242a6c9df6745648011
+
+2 安装jenkins
+
+3 在部门微服务里添加logback-spring.xml日志配置文件；
+
+## 2020年1月9日
+
+1 增加低功耗LBS应答；
+
+2 学习Netty实现Http服务，以浏览器最为客户端进行测试；
+
+## 2020年1月10日
+
+1 JCE测试，及demo;
+
+2 查看接入云部署文档，安装docker-compose;
+
+3 对照协议和808消息示例，从日志的角度重新查看车辆网代码；
+
+# 第5周
+
+## 2020年1月13日
+
+学习mybatisplus，写分页demo;
+
+## 2020年1月14日
+
+1 阅读方志朋的《深入理解Spring Cloud与微服务构建》书籍前8章，从源码的角度理解SpringCloud组件；
+
+2 学习netty EventLoop和Unpooled组件以及群聊系统的实现；
